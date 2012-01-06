@@ -12,15 +12,15 @@ package Action;
 import java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
 
-public class AboutAction extends AbstractAction {
-    
-    public AboutAction(String title){
+public class ClearGalleryAction extends AbstractAction {
+
+    public ClearGalleryAction(String title){
         super(title);
     }
     
     @Override
     public void actionPerformed(ActionEvent ae) {
-        System.out.print("AboutAction Pressed\n");
+        System.out.print("ClearMapAction Pressed\n");
     }
     
 }

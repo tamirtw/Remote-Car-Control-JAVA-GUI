@@ -8,6 +8,6 @@ package Controller;
  *
  * @author avi
  */
-public class MapController {
+public class GalleryController {
     
 }

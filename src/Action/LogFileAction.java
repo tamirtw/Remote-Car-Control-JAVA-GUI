@@ -12,15 +12,15 @@ package Action;
 import java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
 
-public class ClearMapAction extends AbstractAction {
 
-    public ClearMapAction(String title){
+public class LogFileAction extends AbstractAction {
+        
+    public LogFileAction(String title){
         super(title);
     }
     
     @Override
     public void actionPerformed(ActionEvent ae) {
-        System.out.print("ClearMapAction Pressed\n");
+        System.out.print("LogFileAction Pressed\n");
     }
-    
 }
