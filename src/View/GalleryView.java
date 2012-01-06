@@ -14,13 +14,15 @@ import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JPanel;
 
-public class KinectView extends JPanel {
-    
-    public KinectView(){
+
+public class GalleryView extends JPanel {
+          
+    public GalleryView(){
         super(new BorderLayout());
         JPanel panel = new JPanel(new BorderLayout());
         panel.setBackground(Color.yellow);
-        panel.setSize(10,10);
+        panel.setSize(30,30);
+        //this.add(panel);
     }
     
     @Override
